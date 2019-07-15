@@ -1,7 +1,7 @@
 package AStudy;
 
 import java.util.Scanner;
-
+//백준 1110번 더하기 사이클
 public class BJ_1110 {
 
 	public static void main(String[] args) {
