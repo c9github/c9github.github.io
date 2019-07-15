@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class BJ_10845 {
-//190715
+//190715 Å¥ ¹®Á¦
 	public static void main(String[] args) {
 		int b = 0;
 		Queue<Integer> que = new LinkedList<>();
