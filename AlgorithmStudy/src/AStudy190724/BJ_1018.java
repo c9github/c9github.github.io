@@ -8,8 +8,8 @@ public class BJ_1018 {
 
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt();
-		m = sc.nextInt();
+		n = sc.nextInt();//За
+		m = sc.nextInt();//ї­
 		arr = new int[n][m];
 		for (int i = 0; i < n; i++) {
 			String t = sc.next();
