@@ -7,7 +7,7 @@ class Solution {
         int lost1 = 0;
         int count = 0;
 
-        //여벌옷을 가지고 있는 학생이 도난당하면 빌려 줄 수 없게 설정
+        //여벌옷을 가지고 있는 학생이 도난당하면 빌려 줄 수 없게 해준다.
         for(int i = 0; i<lost.length; i++){
             for(int j = 0; j<reserve.length; j++){
                if(lost[i] == reserve[j]){
