@@ -7,18 +7,18 @@ import java.util.*;
 class Solution {
     public int solution(int n) {
         int answer = 0;
-        int [] arr = new int[n+1];
+        int[] arr = new int[n + 1];
 
-        for (int i =1; i<=n; i++){
-            if(n%i == 0 && arr[i] != 0){
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0 && arr[i] != i) {//n나누기 i의 값 (같다) 0 그리고 배열i가 i의값과 같지않을때
                 arr[i] = i;
-                int b = n/i;
+                int b = n / i;
                 arr[b] = b;
             }
         }
-        for (int i = 0; i<= n; i++){
+        for (int i = 0; i <= n; i++) {
             answer += arr[i];
         }
         return answer;
     }
-  }
+}
